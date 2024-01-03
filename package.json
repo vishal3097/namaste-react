@@ -5,7 +5,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,14 +20,17 @@
   },
   "homepage": "https://github.com/vishal3097/namaste-react#readme",
   "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
     "parcel": "^2.10.3",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "lint": "^1.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 versions"
   ]
 }

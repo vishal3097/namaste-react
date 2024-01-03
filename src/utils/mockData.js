@@ -82,7 +82,8 @@ const resObj =  {
       cta: {
         link: "https://www.swiggy.com/restaurants/starbucks-coffee-uniza-complex-satellite-ahmedabad-236437",
         type: "WEBLINK"
-      }
+      },
+      
   };
 
   export default resObj;

@@ -8,9 +8,6 @@ const styleCard = {
 };
 
 
-
-
-
 const AppLayout = () => {
     return(
         <div className="app">
